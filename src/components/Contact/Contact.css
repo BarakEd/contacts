@@ -1,0 +1,27 @@
+.Contact {
+  width: 20%;
+  border: 1px solid black;
+  display: flex;
+  background-color: gray;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.Contact:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+}
+
+.contactImg {
+  height: 80%;
+  width: 100%;
+}
+
+.nameWrapper {
+  color:black;
+  font-size: 20px;
+  font-weight: 500;
+}
